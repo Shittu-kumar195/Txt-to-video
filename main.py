@@ -94,7 +94,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["saini"]))
+@bot.on_message(filters.command(["bhumihar"]))
 
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ⚡️')
@@ -274,8 +274,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n📄 Title: {name1} {res} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**╭━━━━━━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━╯\n\n📄 Title: {name1} 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**╭━━━━━━━━━━━╮\n🎬 VIDEO ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n📄 Title: {name1} {res} 𝔹ℍ𝕌𝕄𝕀ℍ𝔸ℝ.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**╭━━━━━━━━━━╮\n📁 FILE ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━╯\n\n📄 Title: {name1} 𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.pdf \n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                     
                 
                 if "drive" in url:
@@ -330,8 +330,8 @@ async def upload(bot: Client, m: Message):
                         
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By NIKHIL SAINI**")
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `NHI DIKHAUNGA`"
+                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`NHI DIKHAUNGA`\n\n **Bot Made By 🇧 🇭 🇺 🇲 🇮 🇭 🇦 🇷 **")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -340,7 +340,7 @@ async def upload(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`\n⌘ 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"
+                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`\n⌘ 🄱🄷🅄🄼🄸🄷🄰🅁"
                 )
                 failed_count += 1  # Increment the failed count
 
@@ -350,7 +350,7 @@ async def upload(bot: Client, m: Message):
     except Exception as e:
         await m.reply_text(e)
 
-    await m.reply_text(f"🔰Thanks for Choosing 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🔰\nTotal failed downloads: {failed_count}")  # Report the failed count
+    await m.reply_text(f"🔰Thanks for Choosing  ᗷᕼᑌᗰIᕼᗩᖇ𝘽𝙊𝙏𝙎🔰\nTotal failed downloads: {failed_count}")  # Report the failed count
 
 
 
